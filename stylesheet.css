@@ -41,7 +41,7 @@
 }
 
 .close_button {
-  background: url("trash_icon.PNG");
+  background: url("./trash_icon.PNG");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
