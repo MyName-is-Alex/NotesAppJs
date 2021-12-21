@@ -46,6 +46,10 @@ for (let i = 0; i < elements.length; i++) {
           title.style.filter = "none";
           link.style.filter = "none";
 
+          if ((i + 1) % 2 === 0) {
+            elements[i].style.background = "#ecb40b";
+          }
+
           //update notes status
           noteStatus = false;
 
@@ -67,6 +71,10 @@ for (let i = 0; i < elements.length; i++) {
           elements[i].style.backgroundColor = "#f1c951";
           title.style.filter = "none";
           link.style.filter = "none";
+
+          if ((i + 1) % 2 === 0) {
+            elements[i].style.background = "#ecb40b";
+          }
 
           //update notes status
           noteStatus = false;
